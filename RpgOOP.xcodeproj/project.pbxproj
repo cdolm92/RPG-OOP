@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F79062231C632861004F2382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79062221C632861004F2382 /* AppDelegate.swift */; };
+		F79062251C632861004F2382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79062241C632861004F2382 /* ViewController.swift */; };
+		F79062281C632861004F2382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F79062261C632861004F2382 /* Main.storyboard */; };
+		F790622A1C632861004F2382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F79062291C632861004F2382 /* Assets.xcassets */; };
+		F790622D1C632861004F2382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F790622B1C632861004F2382 /* LaunchScreen.storyboard */; };
+		F79062351C632AC6004F2382 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79062341C632AC6004F2382 /* Character.swift */; };
+		F79062371C632CC2004F2382 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79062361C632CC2004F2382 /* Player.swift */; };
+		F79062391C632EC1004F2382 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79062381C632EC1004F2382 /* Enemy.swift */; };
+		F790623B1C63303F004F2382 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = F790623A1C63303F004F2382 /* Kimara.swift */; };
+		F790623D1C63316E004F2382 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F790623C1C63316E004F2382 /* DevilWizard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F790621F1C632861004F2382 /* RpgOOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RpgOOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79062221C632861004F2382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F79062241C632861004F2382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F79062271C632861004F2382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F79062291C632861004F2382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F790622C1C632861004F2382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F790622E1C632861004F2382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F79062341C632AC6004F2382 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		F79062361C632CC2004F2382 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F79062381C632EC1004F2382 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		F790623A1C63303F004F2382 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		F790623C1C63316E004F2382 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F790621C1C632861004F2382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F79062161C632860004F2382 = {
+			isa = PBXGroup;
+			children = (
+				F79062211C632861004F2382 /* RpgOOP */,
+				F79062201C632861004F2382 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F79062201C632861004F2382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F790621F1C632861004F2382 /* RpgOOP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F79062211C632861004F2382 /* RpgOOP */ = {
+			isa = PBXGroup;
+			children = (
+				F79062221C632861004F2382 /* AppDelegate.swift */,
+				F79062241C632861004F2382 /* ViewController.swift */,
+				F79062261C632861004F2382 /* Main.storyboard */,
+				F79062291C632861004F2382 /* Assets.xcassets */,
+				F790622B1C632861004F2382 /* LaunchScreen.storyboard */,
+				F790622E1C632861004F2382 /* Info.plist */,
+				F79062341C632AC6004F2382 /* Character.swift */,
+				F79062361C632CC2004F2382 /* Player.swift */,
+				F79062381C632EC1004F2382 /* Enemy.swift */,
+				F790623A1C63303F004F2382 /* Kimara.swift */,
+				F790623C1C63316E004F2382 /* DevilWizard.swift */,
+			);
+			path = RpgOOP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F790621E1C632861004F2382 /* RpgOOP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F79062311C632861004F2382 /* Build configuration list for PBXNativeTarget "RpgOOP" */;
+			buildPhases = (
+				F790621B1C632861004F2382 /* Sources */,
+				F790621C1C632861004F2382 /* Frameworks */,
+				F790621D1C632861004F2382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RpgOOP;
+			productName = RpgOOP;
+			productReference = F790621F1C632861004F2382 /* RpgOOP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F79062171C632860004F2382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Christella;
+				TargetAttributes = {
+					F790621E1C632861004F2382 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9WQ49EN2U5;
+					};
+				};
+			};
+			buildConfigurationList = F790621A1C632860004F2382 /* Build configuration list for PBXProject "RpgOOP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F79062161C632860004F2382;
+			productRefGroup = F79062201C632861004F2382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F790621E1C632861004F2382 /* RpgOOP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F790621D1C632861004F2382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F790622D1C632861004F2382 /* LaunchScreen.storyboard in Resources */,
+				F790622A1C632861004F2382 /* Assets.xcassets in Resources */,
+				F79062281C632861004F2382 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F790621B1C632861004F2382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F79062371C632CC2004F2382 /* Player.swift in Sources */,
+				F79062391C632EC1004F2382 /* Enemy.swift in Sources */,
+				F790623D1C63316E004F2382 /* DevilWizard.swift in Sources */,
+				F790623B1C63303F004F2382 /* Kimara.swift in Sources */,
+				F79062351C632AC6004F2382 /* Character.swift in Sources */,
+				F79062251C632861004F2382 /* ViewController.swift in Sources */,
+				F79062231C632861004F2382 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F79062261C632861004F2382 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F79062271C632861004F2382 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F790622B1C632861004F2382 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F790622C1C632861004F2382 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F790622F1C632861004F2382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F79062301C632861004F2382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F79062321C632861004F2382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RpgOOP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christella.RpgOOP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F79062331C632861004F2382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RpgOOP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.christella.RpgOOP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F790621A1C632860004F2382 /* Build configuration list for PBXProject "RpgOOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F790622F1C632861004F2382 /* Debug */,
+				F79062301C632861004F2382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F79062311C632861004F2382 /* Build configuration list for PBXNativeTarget "RpgOOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F79062321C632861004F2382 /* Debug */,
+				F79062331C632861004F2382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F79062171C632860004F2382 /* Project object */;
+}
