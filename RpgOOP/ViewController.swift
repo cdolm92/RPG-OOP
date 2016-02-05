@@ -30,6 +30,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         player = Player(name: "DirtyLaundry21", hp: 110, attackPwr: 20)
+        
+        generateRandomEnemy()
+        
         playerHpLbl.text = "\(player.hp) HP"
     }
     
@@ -41,6 +44,8 @@ class ViewController: UIViewController {
         } else {
             enemy = DevilWizard(startingHP: 60, attackPwr:  15)
         }
+        
+        enemyImg.hidden = false
     }
 
 
@@ -54,13 +59,14 @@ class ViewController: UIViewController {
     @IBAction func attackTapped(sender: AnyObject) {
         
         if enemy.attemptAttack(player.attackPwr){
-            printLbl.text = "Attcked \(enemy.type) for \(player.attackPwr) HP"
+            printLbl.text = "Attacked \(enemy.type) for \(player.attackPwr) HP"
+            enemyHpLbl.text = "\(enemy.hp) HP"
         } else {
             printLbl.text = "Attack was unsuccessful"
         }
         
         if let loot = enemy.dropLoot() {
-            player.inventory.append(loot)
+            player.addItemToInventory(loot)
             chestMessage = "\(player.name) found \(loot)"
             chestBtn.hidden = false
         }
