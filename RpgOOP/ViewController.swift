@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        player = Player(name: "DirtyLaundry21", hp: 110, attackPwr: 20)
+        player = Player(name: "BoogiePopK17", hp: 110, attackPwr: 20)
         
         generateRandomEnemy()
         
